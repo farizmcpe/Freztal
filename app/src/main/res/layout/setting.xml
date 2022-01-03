@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FF1B1818"
+	android:orientation="vertical">
+
+	<Switch
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textOff="Dark Mode"
+		android:textOn="Light Mode"
+		android:text="Light Mode"
+		android:id="@+id/light"/>
+
+	<Button
+		android:id="@+id/ccache"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/button_background"
+		android:text="Clear cache"
+		android:layout_margin="10dp"
+		android:fontFamily="serif-monospace"
+		android:textColor="#ff1a29ff"
+		android:textAllCaps="false"
+		android:textSize="24sp"/>
+
+	<Button
+		android:id="@+id/cdata"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/button_background"
+		android:text="Clear data"
+		android:layout_margin="10dp"
+		android:fontFamily="serif-monospace"
+		android:textColor="#ff1a29ff"
+		android:textAllCaps="false"
+		android:textSize="24sp"
+		android:hint="Clears some data"/>
+
+	<Button
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/button_background"
+		android:text="Clear Temp Files"
+		android:layout_margin="10dp"
+		android:fontFamily="serif-monospace"
+		android:textColor="#ff1a29ff"
+		android:textAllCaps="false"
+		android:textSize="24sp"
+		android:hint="Clears some temp files"
+		android:id="@+id/ctemp"/>
+
+</LinearLayout>
+

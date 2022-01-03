@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<attr name="colorControlHighlight" format="color" />
+<attr name="colorControlNormal" format="color" />
+<attr name="colorError" format="reference|color" />
+<attr name="colorPrimary" format="color" />
+<attr name="colorPrimaryDark" format="color" />
+<attr name="colorSwitchThumbNormal" format="color" />
+</resources>

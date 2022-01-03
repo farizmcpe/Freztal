@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FF171313">
+
+	<ImageView
+		android:layout_gravity="center"
+		android:id="@+id/logo"
+		android:layout_width="fill_parent"
+		android:layout_height="100.0dip"
+		android:src="@drawable/ic_icon"/>
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:fillViewport="true"
+		android:foregroundGravity="center">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="match_parent"
+			android:background="#FF171313"
+			android:id="@+id/mainac">
+
+			<Button
+				android:id="@+id/openapk"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="Launch Apps"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textAllCaps="false"
+				android:textSize="24sp"
+				android:visibility="gone"/>
+
+			<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="Settings"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textSize="24sp"
+				android:textAllCaps="false"
+				android:id="@+id/settings"/>
+
+			<Button
+				android:id="@+id/caller"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="Caller"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textAllCaps="false"
+				android:textSize="24sp"
+				android:visibility="gone"/>
+
+			<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="Google"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textSize="24sp"
+				android:textAllCaps="false"
+				android:id="@+id/google"/>
+
+			<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="Fix Toolbox Crash"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textSize="24sp"
+				android:textAllCaps="false"
+				android:id="@+id/ftc"
+				android:visibility="gone"/>
+
+			<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="Flashlight"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textSize="24sp"
+				android:textAllCaps="false"
+				android:id="@+id/flashlight"
+				android:visibility="gone"/>
+
+			<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="Live Wallpaper"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textSize="24sp"
+				android:textAllCaps="false"
+				android:id="@+id/wallpaper"
+				android:visibility="gone"/>
+
+			<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="Discord Server"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textSize="24sp"
+				android:textAllCaps="false"
+				android:id="@+id/discord"
+				android:visibility="gone"/>
+
+			<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="Download ToolMcFRZ"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textSize="24sp"
+				android:textAllCaps="false"
+				android:id="@+id/toolmcfrz"
+				android:visibility="gone"/>
+
+			<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="Add New Tb Gui"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textSize="24sp"
+				android:textAllCaps="false"
+				android:id="@+id/atbgui"/>
+
+			<Button
+				android:id="@+id/tmc1"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="Download"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textAllCaps="false"
+				android:textSize="24sp"/>
+
+			<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="Download Minecraft"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textSize="24sp"
+				android:textAllCaps="false"
+				android:id="@+id/mcdownload"
+				android:visibility="gone"/>
+
+			<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="Minecraft Packs"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textSize="24sp"
+				android:textAllCaps="false"
+				android:id="@+id/rcm"
+				android:visibility="gone"/>
+
+			<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="All ToolMcFRZ Updates"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textSize="24sp"
+				android:textAllCaps="false"
+				android:id="@+id/atu"
+				android:visibility="gone"/>
+
+			<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="Subscribe"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textSize="24sp"
+				android:textAllCaps="false"
+				android:id="@+id/subscribe"/>
+
+			<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="Changelogs"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textSize="24sp"
+				android:textAllCaps="false"
+				android:id="@+id/changelog"
+				android:visibility="gone"/>
+
+			<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="Restart"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textSize="24sp"
+				android:textAllCaps="false"
+				android:id="@+id/restart"/>
+
+			<Button
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/button_background"
+				android:text="Exit"
+				android:layout_margin="10dp"
+				android:fontFamily="serif-monospace"
+				android:textColor="#ff1a29ff"
+				android:textSize="24sp"
+				android:textAllCaps="false"
+				android:id="@+id/exit"/>
+
+			<TextView
+				android:layout_gravity="center"
+				android:id="@+id/creator"
+				android:layout_width="fill_parent"
+				android:layout_height="100.0dip"
+				android:text="MADE BY FARIZ MCPE"
+				android:gravity="center"
+				android:fontFamily="serif-monospace"
+				android:textColor="#FFFF0000"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

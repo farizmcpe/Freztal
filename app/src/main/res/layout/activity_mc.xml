@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_vertical|center_horizontal"
+	android:background="#FF171313">
+
+	<Button
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/button_background"
+		android:text="Minecraft 32-bit"
+		android:layout_margin="10dp"
+		android:fontFamily="serif-monospace"
+		android:textColor="#ff1a29ff"
+		android:textSize="24sp"
+		android:textAllCaps="false"
+		android:id="@+id/mc32"/>
+
+	<Button
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/button_background"
+		android:text="Minecraft 64-bit"
+		android:layout_margin="10dp"
+		android:fontFamily="serif-monospace"
+		android:textColor="#ff1a29ff"
+		android:textSize="24sp"
+		android:textAllCaps="false"
+		android:layout_marginBottom="100dp"
+		android:id="@+id/mc64"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="File will be saved in 'Download' Folder"
+		android:textColor="#FFFF0000"
+		android:fontFamily="serif-monospace"/>
+
+</LinearLayout>
+

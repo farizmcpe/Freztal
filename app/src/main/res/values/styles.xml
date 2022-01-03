@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+	</style>
+
+	<style name="STheme" parent="Theme.AppCompat.Light.NoActionBar">
+	</style>
+
+	<style name="splash" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:windowBackground">@drawable/splash_background</item>
+	</style>
+
+	<style name="google" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:windowBackground">@drawable/google_background</item>
+	</style>
+
+</resources>

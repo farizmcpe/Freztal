@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FF171313">
+
+	<TextView
+		android:layout_gravity="center"
+		android:layout_width="fill_parent"
+		android:layout_height="100.0dip"
+		android:text="CHANGELOG"
+		android:gravity="center_vertical|center_horizontal"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="#FFFF0000"/>
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:fillViewport="true"
+		android:foregroundGravity="center">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="match_parent"
+			android:background="#FF171313">
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="•Added in-app download support"
+				android:layout_margin="10dp"
+				android:textColor="#FF47FF00"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="•Improved Google WebView"
+				android:layout_margin="10dp"
+				android:textColor="#FF47FF00"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="•New ui"
+				android:layout_margin="10dp"
+				android:textColor="#FF47FF00"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="•Dark Theme"
+				android:layout_margin="10dp"
+				android:textColor="#FF47FF00"
+				android:textStyle="bold"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="•Added New Buttons"
+				android:layout_margin="10dp"
+				android:textColor="#FF47FF00"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="•New Style Fonts"
+				android:layout_margin="10dp"
+				android:textColor="#FF47FF00"/>
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="•Splash screen loads faster"
+				android:layout_margin="10dp"
+				android:textColor="#FF47FF00"/>
+			
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="•Splash screen will be only shown once"
+				android:layout_margin="10dp"
+				android:textColor="#FF47FF00"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+
