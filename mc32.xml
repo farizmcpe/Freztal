@@ -1,12 +1,10 @@
 <Freztal>
   <update>
-    <latestVersion>2.6</latestVersion>
-    <latestVersionCode>17</latestVersionCode>
-    <url>https://github.com/farizmcpe/Mc-Downloader/releases/download/v2.6/Mc-Downloader-2.6.apk</url>
+    <url>https://mcpedl.org/uploads_files/07-02-2023/minecraft-1-19-60.apk</url>
     <releaseNotes>
-Changelogs-
+Latest updated version-
 
-- Added 1.19.51 download support
+- Minecraft 1.19.60
     </releaseNotes>
   </update>
 </Freztal>
